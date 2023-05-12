@@ -21,9 +21,9 @@ nav {
 }
 
 li {
-    display: inline;
     list-style: none;
     padding: 15px;
+    display: inline;
 }
 
 .new-website {
@@ -32,3 +32,23 @@ li {
     margin: auto;
 }
 
+#new-website-header {
+    margin: 30px;
+    font-size: 40px;
+}
+
+.contact-me {
+    background-color: #E8CEBF;
+    padding: 10px;
+}
+
+img {
+   margin: auto; 
+   position: relative;
+}
+
+footer {
+    background-color: #256150;
+    color: white;
+    padding: 10px;
+}
