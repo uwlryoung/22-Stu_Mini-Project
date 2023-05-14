@@ -11,34 +11,42 @@
     <header>
         <nav>
             <ul>
-                <li>GitHub</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <li class="nav-bar"><a href="#">GitHub</a></li>
+                <li class="nav-bar"><a href="#">Portfolio</a></li>
+                <li class="nav-bar"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <section class="new-website">
-      <h1 id="new-website-header">My New Website</h1>
-      <figure>
-        <img src="../22-Stu_Mini-Project/assets/image_1.png" alt="Coming Soon">
-        <figcaption>Fig.1 - My Portfolio is coming soon! As stated above.</figcaption>
+      <div class="center-test">
+        <h1 id="new-website-header">My New Website</h1>
+        <figure>
+          <img src="../22-Stu_Mini-Project/assets/image_1.png" alt="Coming Soon">
+          <figcaption>My Portfolio is coming soon! As stated above.</figcaption>
+      </div>
       </figure>
     </section>
     <section class="contact-me">
       <h2>Contact Me</h2>
-      <div>
+      <form>
         <ul>
-          <li>Name: </li>
-          <input type="text">
-          <li>Email: </li>
-          <input type="text">
+          <li class="user-input">
+            <label for="name">Name: </label>
+            <input type="text" id="name"/>
+          </li>
+          <li class="user-input">
+            <label for="mail">Email: </label>
+            <input type="text" id="mail"/>
+          </li>
+          <li class="user-input" id="submit-button">
+            <button type="button" onclick="alert('Did this work?')">SEND</button>
+          </li>
         </ul>
-      </div>
+      </form>
     </section>
     <footer>
-      <p>&copy2023 My New Website Productions</p>
+      <p id="copyright">&copy2023 My New Website Productions</p>
     </footer>
   </body>
 </html>
 
-<!-- Look up "Forms" for HTML, look up submit button,  -->
